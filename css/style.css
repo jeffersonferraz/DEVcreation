@@ -21,17 +21,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-#selector {
-    position: fixed;
-    max-width: 1000px;
-    background: greenyellow;
-    color: whitesmoke;
-    top: 20px;
-    left:0; 
-    right:0;
-    z-index: 1;
-    margin: auto;
-}
 
 nav {
     position: fixed;
