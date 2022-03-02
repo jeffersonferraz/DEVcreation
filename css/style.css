@@ -69,6 +69,16 @@ h1 sub {
     font-weight: 100;
 }
 
+@media (max-width: 650px) {
+    h1 {
+        font-size: 19vw;
+    }
+
+    h1 sub {
+        font-size: 21vw;
+    }
+}
+
 main {
     margin: 100px auto;
     padding: 5px 0px;
