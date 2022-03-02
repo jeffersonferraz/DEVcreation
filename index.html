@@ -17,6 +17,17 @@
         </ul>
     </nav>
 
+    <div id="logo">.</div>
+    <div id="bg1">.</div>
+    <div id="bg2">.</div>
+    <div id="bg3">.</div>
+    <div id="bg4">.</div>
+
+
+
+
+
+
     <h1>DEV<sub>creaction</sub> </h1>
 
     <main>
@@ -55,6 +66,18 @@
         <p>developed by <a href="https://jeffersonferraz.github.io" target="blank">JeffersonFerraz</a></p>
     </footer>
 
+    <script>
+        let bg1 = document.getElementById('bg1');
+        let bg2 = document.getElementById('bg2');
+        let bg3 = document.getElementById('bg3');
+        let bg4 = document.getElementById('bg4');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            bg1.style.top = value * 1.5 + 180 + 'px'
+        })
+
+    </script>
 
 </body>
 </html>
