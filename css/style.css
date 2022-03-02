@@ -19,7 +19,18 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    
+}
+
+#selector {
+    position: fixed;
+    max-width: 1000px;
+    background: greenyellow;
+    color: whitesmoke;
+    top: 20px;
+    left:0; 
+    right:0;
+    z-index: 1;
+    margin: auto;
 }
 
 nav {
@@ -27,7 +38,7 @@ nav {
     top: 0;
     left:0; 
     right:0;
-    z-index: 1;
+    z-index: 11;
 }
 
 .menu {
@@ -45,7 +56,7 @@ nav {
 .menu li {
     text-align: center;
     padding: 20px;
-    font-weight: 400;
+    font-weight: 500;
     color: #252525;
     transition: all 0.4s;
 }
@@ -56,7 +67,7 @@ nav {
 
 h1 {
     font-family: 'Stick No Bills', sans-serif;
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: 200;
     position: relative;
     text-align: center;
@@ -65,7 +76,7 @@ h1 {
 
 h1 sub {
     font-family: 'Hiatus';
-    font-size: 8.5rem;
+    font-size: 9rem;
     font-weight: 100;
 }
 
@@ -96,6 +107,8 @@ article {
     background: whitesmoke;
     border-radius: 10px;
 }
+
+@media (max-width: 650px)
 
 article h2 {
     font-family: 'Stick No Bills', sans-serif;
