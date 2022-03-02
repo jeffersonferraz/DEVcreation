@@ -108,7 +108,11 @@ article {
     border-radius: 10px;
 }
 
-@media (max-width: 650px)
+@media (max-width: 650px) {
+    article {
+        padding: 40px 20px;
+    }
+}
 
 article h2 {
     font-family: 'Stick No Bills', sans-serif;
