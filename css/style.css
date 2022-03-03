@@ -25,8 +25,9 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(90deg, lightgrey, grey);
+    background: linear-gradient(180deg, lightgrey, darkgrey, grey);
     overflow-x: hidden;
+    color: ;
 }
 
 #logo {
@@ -38,7 +39,7 @@ body {
     margin-right:auto;
     width: 750px;
     height: 200px;
-    background: whitesmoke;
+    background: linear-gradient(-20deg, lightgrey, whitesmoke, lightgrey);
     color: transparent;
     z-index: 0;
     box-shadow: 0px 10px 25px #25252586;
