@@ -44,6 +44,18 @@ body {
     box-shadow: 0px 10px 25px #25252586;
 }
 
+@media (max-width: 680px) {
+    #logo {
+        height: 30vw;
+    }
+}
+
+@media (max-width: 830px) {
+    #logo {
+        width: 92%;
+    }
+}
+
 #bg1 {
     position: absolute;
     top: 80px;
@@ -67,6 +79,12 @@ body {
     z-index: -2;
     box-shadow: 0px 10px 25px #25252586;
     overflow: hidden;
+}
+
+@media (max-width: 680px) {
+    #bg1, #bg2 {
+        height: 30vw;
+    }
 }
 
 nav {
@@ -93,17 +111,23 @@ nav {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
-.menu li {
+.menu a {
     text-align: center;
-    padding: 20px;
-    font-weight: 500;
+    padding: 20px 0px;
+    font-weight: 700;
     color: #252525;
     transition: all 0.4s;
 }
 
-.menu li:hover {
-    color: #252525;
+.menu a:hover {
+    color: greenyellow;
 }
+
+.menu li {
+    background-color: whitesmoke;
+}
+
+
 
 h1 {
     font-family: 'Stick No Bills', sans-serif;
@@ -112,6 +136,7 @@ h1 {
     position: relative;
     text-align: center;
     margin-top: 150px;
+    margin-left: -6px;
 }
 
 h1 sub {
@@ -120,9 +145,10 @@ h1 sub {
     font-weight: 100;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 680px) {
     h1 {
         font-size: 19vw;
+        margin-top: 140px;
     }
 
     h1 sub {
