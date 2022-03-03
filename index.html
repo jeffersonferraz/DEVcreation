@@ -72,15 +72,12 @@
 
         
         
-        window.addEventListener('scroll', function(){
+        window.addEventListener('scroll', () => {
             let value = window.scrollY;
             bg1.style.right = value * 0.6 + 'px'
             bg2.style.left = value * 0.6 + 'px'
         })
 
-        function myFunction() {
-        document.getElementById("body").style.overflowY = "hidden";
-        }
 
     </script>
 
