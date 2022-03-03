@@ -24,6 +24,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
+    max-height: 100vh;
     
     
     
@@ -49,6 +50,7 @@ body {
     color: transparent;
     z-index: -1;
     box-shadow: 0px 10px 25px #25252586;
+    
 }
 
 #bg2 {
@@ -60,6 +62,7 @@ body {
     color: transparent;
     z-index: -2;
     box-shadow: 0px 10px 25px #25252586;
+    
 }
 
 #bg3 {
@@ -71,6 +74,7 @@ body {
     color: transparent;
     z-index: -3;
     box-shadow: 0px 10px 25px #25252586;
+    
 }
 /*
 #bg4 {
@@ -94,7 +98,7 @@ nav {
     top: 0;
     left:0; 
     right:0;
-    z-index: 10;
+    z-index: 1111;
 }
 
 .menu {
