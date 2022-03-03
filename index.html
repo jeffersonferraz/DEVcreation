@@ -21,7 +21,6 @@
     <div id="bg1">.</div>
     <div id="bg2">.</div>
     <div id="bg3">.</div>
-    <div id="bg4">.</div>
 
 
 
@@ -70,11 +69,13 @@
         let bg1 = document.getElementById('bg1');
         let bg2 = document.getElementById('bg2');
         let bg3 = document.getElementById('bg3');
-        let bg4 = document.getElementById('bg4');
+        
 
         window.addEventListener('scroll', function(){
             let value = window.scrollY;
             bg1.style.top = value * 1.5 + 180 + 'px'
+            bg2.style.top = value * 1.5 + 220 + 'px'
+            bg3.style.top = value * 1.5 + 260 + 'px'
         })
 
     </script>
