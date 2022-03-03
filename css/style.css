@@ -135,7 +135,7 @@ main {
     background: #252525;
     max-width: 940px;
     border-top: 5px solid whitesmoke;
-    box-shadow: 0px 0px 10px greenyellow;*/
+    box-shadow: 0px 0px 10px greenyellow;
 }
 
 article {
@@ -166,7 +166,7 @@ footer {
     max-width: 1000px;
     background: #252525;
     border-top: 5px solid whitesmoke;
-    box-shadow: 0px 0px 10px greenyellow;*/
+    box-shadow: 0px 0px 10px greenyellow;
 }
 
 footer p {
