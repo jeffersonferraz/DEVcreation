@@ -188,7 +188,7 @@ h1 sub {
 }
 
 main {
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
     padding: 5px 0px;
     position: relative;
     background: #252525;
@@ -222,6 +222,21 @@ article h2 {
     font-size: 3rem;
     margin-bottom: 50px;
 }
+
+#foot-h1,
+#foot-sub {
+    margin: 50px auto;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+#foot-h1 {
+    font-size: 4em;
+}
+
+#foot-sub {
+    font-size: 1.1em;
+}
+
 
 footer {
     margin: 0px auto;
