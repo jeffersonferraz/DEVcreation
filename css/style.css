@@ -80,6 +80,7 @@ body {
 #bg2 {
     position: absolute;
     top: 200px;
+    right: 0;
     width: 100vw;
     height: 200px;
     background: greenyellow;

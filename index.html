@@ -69,15 +69,13 @@
     </footer>
 
     <script>
-
-        
         
         window.addEventListener('scroll', () => {
             let value = scrollY;
-            bg1.style.right = value * 0.6 + 'px'
-            bg2.style.left = value * 0.6 + 'px'
+            var w = window.innerWidth;
+            bg1.style.width = w - value * 0.6 + 'px'
+            bg2.style.width = w - value * 0.6 + 'px'
         })
-
 
     </script>
 
