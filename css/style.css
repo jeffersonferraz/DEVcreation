@@ -26,6 +26,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(90deg, lightgrey, grey);
+    
     overflow-x: hidden;
 }
 
@@ -136,20 +137,22 @@ nav {
     font-weight: 600;
     color: #252525;
     transition: all 0.4s;
+    
 }
 
 .menu a:hover {
-    color: greenyellow;
+    background: linear-gradient(90deg, rgba(172, 255, 47, 0.06), rgba(172, 255, 47, 0.3), rgba(172, 255, 47, 0.06));
+    box-shadow: 0 10px 5px -5px rgba(172, 255, 47, 0.6);
 }
 
 .menu li {
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.6);
 }
 
 h1 {
     font-family: 'Stick No Bills', sans-serif;
     font-size: 8rem;
-    font-weight: 200;
+    font-weight: 300;
     position: relative;
     text-align: center;
     margin-top: 150px;
