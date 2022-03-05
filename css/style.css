@@ -40,6 +40,7 @@ body {
     width: 750px;
     height: 200px;
     background: linear-gradient(-20deg, lightgrey, whitesmoke, lightgrey);
+    border: 3px solid whitesmoke;
     color: transparent;
     z-index: 0;
     box-shadow: 0px 10px 25px #25252586;
