@@ -230,19 +230,7 @@ article h2 {
     margin-bottom: 50px;
 }
 
-#foot-h1,
-#foot-sub {
-    margin: 50px auto;
-    color: rgba(0, 0, 0, 0.25);
-}
 
-#foot-h1 {
-    font-size: 4em;
-}
-
-#foot-sub {
-    font-size: 1.1em;
-}
 
 
 
@@ -335,7 +323,19 @@ form button:focus {
 
 
 
+#foot-h1,
+#foot-sub {
+    margin: 50px auto;
+    color: rgba(0, 0, 0, 0.25);
+}
 
+#foot-h1 {
+    font-size: 4em;
+}
+
+#foot-sub {
+    font-size: 1.1em;
+}
 
 
 footer {
