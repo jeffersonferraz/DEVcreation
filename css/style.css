@@ -202,7 +202,7 @@ main {
     }
 }
 
-article {
+.container-start {
     margin: 60px auto;
     padding: 50px;
     width: 90%;
@@ -212,29 +212,77 @@ article {
     
 }
 
-article:hover {
+.container-start:hover {
     transform: scale(1.01);
     transition: all 0.2s;
 }
 
 @media (max-width: 650px) {
-    article {
+    .container-start {
         padding: 40px 20px;
     }
 }
 
-article h2 {
+.container-start h2 {
     font-family: 'Stick No Bills', sans-serif;
     font-weight: 600;
     font-size: 3rem;
     margin-bottom: 50px;
 }
 
+/* --------------------- About-page begin */
 
+#container-about {
+    margin: 60px auto;
+    padding: 50px;
+    width: 90%;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    
+}
 
+@media (max-width: 650px) {
+    #container-about {
+        padding: 40px 20px;
+    }
+}
 
+#container-about h2 {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+/* --------------------- About-page end */
 
 /* --------------------- contact-page begin */
+
+
+#container-contact {
+    margin: 60px auto;
+    padding: 50px;
+    width: 90%;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+@media (max-width: 650px) {
+    #container-contact {
+        padding: 40px 20px;
+    }
+}
+
+#container-contact h2 {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
 form {
     font-size: 1.1em;
     margin: auto;
