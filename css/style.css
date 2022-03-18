@@ -278,11 +278,22 @@ main {
     }
 }
 
+@media (max-width: 400px) {
+    #container-contact {
+        padding: 40px 0px;
+    }
+}
+
 #container-contact h2 {
     font-family: 'Stick No Bills', sans-serif;
     font-weight: 600;
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin: 50px 0px 0px 10px;
+}
+@media (max-width: 400px) {
+    #container-contact h2{
+        margin: 0px 0px 0px 20px;
+    }
 }
 
 form {
@@ -292,7 +303,7 @@ form {
 }
 
 .contact-form {
-    width: 70%;
+    width: 80%;
     font-size: 1em;
     background: white;
     margin: 80px auto 0px auto;
@@ -302,7 +313,7 @@ form {
     border-bottom: 5px solid #252525;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
     .contact-form {
         width: 90%;
     }
@@ -315,6 +326,15 @@ form textarea {
     margin: auto;
     display: block;
     width: 90%;
+}
+
+@media (max-width: 550px) {
+form label,
+form input,
+form textarea {
+    width: 100%;
+}
+
 }
 
 form label {
