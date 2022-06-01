@@ -58,7 +58,7 @@ body {
     }
 }
 
-#bg1 {
+#stripe1 {
     position: absolute;
     top: 80px;
     width: 100vw;
@@ -70,7 +70,7 @@ body {
     overflow-x: hidden;
 }
 
-#bg2 {
+#stripe2 {
     position: absolute;
     top: 200px;
     right: 0;
